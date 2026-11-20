@@ -18,8 +18,8 @@ interface SidebarProps {
 
 const navItems: { id: PageId; label: string; icon: typeof Compass; hint?: string }[] = [
   { id: "dashboard", label: "Dashboard", icon: Compass },
-  { id: "skills", label: "Skill Matching", icon: Gauge, hint: "In progress" },
-  { id: "fairness", label: "Inclusive Hiring", icon: ShieldCheck, hint: "In progress" },
+  { id: "skills", label: "Skill Matching", icon: Gauge },
+  { id: "fairness", label: "Inclusive Hiring", icon: ShieldCheck },
   { id: "learning", label: "My Learning", icon: GraduationCap },
   { id: "settings", label: "Settings", icon: Settings },
 ];
