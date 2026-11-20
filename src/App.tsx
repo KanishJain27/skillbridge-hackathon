@@ -5,7 +5,7 @@ import { Dashboard } from "./components/Dashboard";
 import { LearningPage } from "./components/LearningPage";
 import { SettingsPage } from "./components/SettingsPage";
 import SkillPath from "./features/skills/SkillPath";
-import { JobFairnessChecker } from "./features/fairness/JobFairnessChecker";
+import JobFairnessChecker from "./features/fairness/JobFairnessChecker";
 import { usePreferences } from "./hooks/usePreferences";
 import type { PageId } from "./types";
 
